@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link rel="stylesheet" href="Index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Compras</h1>
+        <div class="input-group">
+            <input type="text" id="product-name" placeholder="Nome do Produto">
+            <input type="number" id="product-value" placeholder="Valor do Produto">
+            <button id="add-product">Adicionar Produto</button>
+            <button id="clear-list">Limpar Lista</button>
+        </div>
+        <div class="product-list" id="product-list">
+            <!-- Produtos serão adicionados aqui -->
+        </div>
+        <div class="total">
+            <span>Total:</span>
+            <input type="text" id="total-value" readonly>
+        </div>
+    </div>
+    <script src="Index.js"></script>
+</body>
+</html>
